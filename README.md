@@ -1,4 +1,4 @@
-# ELK_course
+# การใช้งาน Elastic Search 
 
 Software :  Elesticsearch https://www.elastic.co/
 
@@ -44,7 +44,7 @@ GET student/_doc/1
 POST student/_doc/
 {
   "id":4151322,
-  "name":"maae Yeng",
+  "name":"Mr. Sister Ontess",
   "major":"Computer Business",
   "started_data": "2019/12/24"
 }
@@ -85,3 +85,10 @@ POST _analyze
   "analyzer": "whitespace",
   "text": "ประเทศ ไทย"
 }
+
+
+## Search on  ElasticSearch by Kiban 
+
+
+
+
